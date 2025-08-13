@@ -1,0 +1,9 @@
+pyttsx3
+pyaudio
+numpy
+requests
+speechrecognition
+whisper
+google-api-python-client
+ytmusicapi
+pvporcupine
