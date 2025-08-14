@@ -1,9 +1,6 @@
-pyttsx3
-pyaudio
-numpy
-requests
-speechrecognition
-whisper
-google-api-python-client
+vosk
+snowboy
+pygame
 ytmusicapi
-pvporcupine
+requests
+google-search-python
