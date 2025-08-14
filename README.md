@@ -31,24 +31,6 @@ This edition uses **Snowboy** for wake word detection — no online accounts req
 
 ---
 
-## 📦 Requirements
-
-JeremyAI requires **Python 3.8+** and these dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Main libraries:
-- `snowboy` (wake word detection)
-- `speechrecognition` (speech-to-text)
-- `pyaudio` (microphone access)
-- `requests`
-- `ollama` Python API
-- `ytmusicapi`
-
----
-
 ## 🛠 Setup
 
 ### 1️⃣ Install Python & Pip
@@ -65,7 +47,7 @@ If you don’t have Python:
 
 ### 2️⃣ Clone or Download JeremyAI
 ```bash
-git clone https://github.com/YOUR_USERNAME/Jeremy-Voice-AI.git
+git clone https://github.com/superflyzooka/Jeremy-Voice-AI.git
 cd Jeremy-Voice-AI
 ```
 Or download the ZIP and extract it.
@@ -74,6 +56,13 @@ Or download the ZIP and extract it.
 ```bash
 pip install -r requirements.txt
 ```
+Main libraries:
+- `snowboy` (wake word detection)
+- `speechrecognition` (speech-to-text)
+- `pyaudio` (microphone access)
+- `requests`
+- `ollama` Python API
+- `ytmusicapi`
 
 ### 4️⃣ Install Ollama
 [Install Ollama](https://ollama.com/download) and pull LLaMA 3.2:
